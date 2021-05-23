@@ -22,3 +22,11 @@ const firebaseConfig = {
 /// coming to header.js and import { signIn, signOut, useSession } from "next-auth/client";
 //// create session varialble const [session] = useSession
 /// according to session handle onClick such session? signIn : signOut
+
+/// Payment Gateway
+
+/// installed Stripe
+/// added role to button
+/// created on click function
+/// create const stripePromise = laodStrip()
+/// import {loadStrip } from "@strip/strip-js"
